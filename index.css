@@ -1,0 +1,96 @@
+.body{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(body.jpg);
+    background-size: 1000px;
+    margin: 0px;
+    padding: 40px;
+    align-items: center;
+    border-style: double;
+    color: rgb(220, 167, 20);
+}
+.menu_bar{
+    background: linear-gradient(rgba(0, 68, 255, 0.8),rgba(52,64,98,0.5));
+    height: 14.8vw;
+    width: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-style: double;
+    text-align: center;
+}
+.zed img{
+    height: 14.7vw;
+    width: auto;
+}
+.menu_bar .zed:hover , .vayne:hover{
+    border-style: double;
+}
+.baslik{
+    margin-top: 1.5vw;
+}
+.baslik p{
+    color: rgb(255, 203, 125);
+    font-size: 8.8vw;
+    font-family: fantasy;
+    text-decoration: underline;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+.vayne img{
+    height: 14.7vw;
+}
+.menu_bar p{
+    transition: 0.5s;
+}
+.menu_bar .baslik:hover p{
+    color: #ffffff;
+}
+.kayan{
+    text-align: center;
+    margin-top: 20px;
+    height: 6.8vw;
+    border-style: double;
+    background: linear-gradient(rgb(16, 141, 89),rgba(52,64,98,0.5));
+}
+.kayan img{
+    height: 6.5vw;
+    transition: 0.5s;
+}
+.mozaik{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    border-style: double;
+    background: linear-gradient(rgb(141, 35, 16),rgba(52,64,98,0.5));
+}
+.mozaik img{
+    width: 83%;
+    height: 35%;
+}
+.kutlama{
+    display: flex;
+    font-size: 3.5vw;
+    font-family: cursive;
+    text-align: center;
+    color:  rgb(255, 203, 125);
+    margin-top: 20px;
+    justify-content: space-around;
+    border-style: double;
+    background: linear-gradient(rgb(16, 141, 131),rgba(52,64,98,0.5));
+    transition: 0.5s;
+}
+.kutlama:hover{
+    color: cornsilk;
+}
+.beraber{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    border-style: double;
+    background: linear-gradient(rgb(141, 16, 78),rgba(52,64,98,0.5));
+}
+.beraber img{
+    width: 83%;
+    height: 35%;
+}
